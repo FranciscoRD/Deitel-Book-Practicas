@@ -5,6 +5,8 @@ using Cap07.ScopeDeclarations;// Version 4.0
 using Cap07.CallSatck;// Version 5.0
 using Cap07.Sobrecarga;// Version 6.0
 using Cap07.ValoresOpcionales;// Version 7.0
+using Cap07.Recursividad;// Version 8.0
+using Cap07.Referencias;// Version 9.0
 
 namespace Cap07
 {
@@ -12,6 +14,18 @@ namespace Cap07
     {
         static void Main(string[] args)
         {
+            #region Version 9.0
+            /* */
+            ReferenceAndOutParameters.Principal();
+            /* */
+            #endregion
+
+            #region Version 8.0
+            /*
+            FactorialTest.Principal();
+            */
+            #endregion
+
             #region Version 7.0
             // CalculatePowers.Principal();
             #endregion

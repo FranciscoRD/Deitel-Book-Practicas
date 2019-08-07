@@ -7,6 +7,7 @@ using Cap08.GradeBook;//            8.8
 using Cap08.MdArrays;//             8.9
 using Cap08.GBRectangularArray;//   8.10
 using Cap08.VariableArgs;//         8.11
+using Cap08.Referencias;//          8.13
 
 namespace Cap08
 {
@@ -15,6 +16,7 @@ namespace Cap08
         #region 8.12 Argumentos de la linea de comandos
         // Para enviar parametros en DotNetCore solo se necesita ejecutar
         // dotnet run param1 param2 param3 desde el directorio del proyecto
+        /*
         static void Main(string[] args)
         {
             if (args.Length != 3)
@@ -42,12 +44,15 @@ namespace Cap08
                 }
             }
         }
+         */
         #endregion
-        /*
         static void Main(string[] args)
         {
+            #region 8.13 Passing Arrays by Value and by Reference
+            ArrayReferenceTest.Principal();
+            #endregion
             #region 8.11 Variable-Length Argument Lists
-            ParamArrayTest.Principal();
+            // ParamArrayTest.Principal();
             #endregion
 
             #region 8.10 GradeBook with MD Arrays
@@ -85,6 +90,5 @@ namespace Cap08
             // InitArray.First();
             #endregion
         }
-        */
     }
 }

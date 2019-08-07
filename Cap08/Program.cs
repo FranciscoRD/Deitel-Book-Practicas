@@ -12,6 +12,38 @@ namespace Cap08
 {
     class Program
     {
+        #region 8.12 Argumentos de la linea de comandos
+        // Para enviar parametros en DotNetCore solo se necesita ejecutar
+        // dotnet run param1 param2 param3 desde el directorio del proyecto
+        static void Main(string[] args)
+        {
+            if (args.Length != 3)
+            {
+                Console.WriteLine(
+                    "Error: Please re-enter the entire command, inluding\n"+
+                    "an array size, initial value and increment.");
+            }
+            else
+            {
+                var arrayLength = int.Parse(args[0]);
+                var array = new int[arrayLength];
+
+                var initialValue = int.Parse(args[1]);
+                var increment = int.Parse(args[2]);
+
+                for (int counter = 0; counter < array.Length; counter++)
+                {
+                    array[counter] = initialValue + increment * counter;
+                }
+                Console.WriteLine($"{"Index"}{"Value",8}");
+                for (int counter = 0; counter < array.Length; counter++)
+                {
+                    Console.WriteLine($"{counter,5}{array[counter],8}");
+                }
+            }
+        }
+        #endregion
+        /*
         static void Main(string[] args)
         {
             #region 8.11 Variable-Length Argument Lists
@@ -53,5 +85,6 @@ namespace Cap08
             // InitArray.First();
             #endregion
         }
+        */
     }
 }

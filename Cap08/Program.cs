@@ -1,10 +1,11 @@
 ﻿using System;
-using Cap08.Arreglos;//         8.4
-using Cap08.Excepciones;//      8.5
-using Cap08.CardShuffling;//    8.6
-using Cap08.PassElems;//        8.7
-using Cap08.GradeBook;//        8.8
-using Cap08.MdArrays;//         8.9
+using Cap08.Arreglos;//             8.4
+using Cap08.Excepciones;//          8.5
+using Cap08.CardShuffling;//        8.6
+using Cap08.PassElems;//            8.7
+using Cap08.GradeBook;//            8.8
+using Cap08.MdArrays;//             8.9
+using Cap08.GBRectangularArray;//   8.10
 
 namespace Cap08
 {
@@ -12,8 +13,12 @@ namespace Cap08
     {
         static void Main(string[] args)
         {
+            #region 8.10
+            GBRectangularArray.GradeBookTest.Principal();
+            #endregion
+
             #region 8.9
-            MdArrays.InitArray.Principal();
+            // MdArrays.InitArray.Principal();
             #endregion
 
             #region 8.8

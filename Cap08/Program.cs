@@ -9,7 +9,8 @@ namespace Cap08
     {
         static void Main(string[] args)
         {
-            #region 8.5 Card Shuffling   
+            #region 8.5 Card Shuffling 
+            DeckOfCardTest.Principal(); 
             #endregion
 
             #region 8.5 Exceptions - 

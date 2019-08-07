@@ -4,6 +4,7 @@ using Cap08.Excepciones;//      8.5
 using Cap08.CardShuffling;//    8.6
 using Cap08.PassElems;//        8.7
 using Cap08.GradeBook;//        8.8
+using Cap08.MdArrays;//         8.9
 
 namespace Cap08
 {
@@ -11,8 +12,12 @@ namespace Cap08
     {
         static void Main(string[] args)
         {
+            #region 8.9
+            MdArrays.InitArray.Principal();
+            #endregion
+
             #region 8.8
-            GradeBookTest.Principal();
+            // GradeBookTest.Principal();
             #endregion
 
             #region 8.7 Passing Arrays

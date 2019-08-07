@@ -6,6 +6,7 @@ using Cap08.PassElems;//            8.7
 using Cap08.GradeBook;//            8.8
 using Cap08.MdArrays;//             8.9
 using Cap08.GBRectangularArray;//   8.10
+using Cap08.VariableArgs;//         8.11
 
 namespace Cap08
 {
@@ -13,15 +14,19 @@ namespace Cap08
     {
         static void Main(string[] args)
         {
-            #region 8.10
-            GBRectangularArray.GradeBookTest.Principal();
+            #region 8.11 Variable-Length Argument Lists
+            ParamArrayTest.Principal();
             #endregion
 
-            #region 8.9
+            #region 8.10 GradeBook with MD Arrays
+            // GBRectangularArray.GradeBookTest.Principal();
+            #endregion
+
+            #region 8.9 Multidimensional Arrays
             // MdArrays.InitArray.Principal();
             #endregion
 
-            #region 8.8
+            #region 8.8 GradeBook Exercise
             // GradeBookTest.Principal();
             #endregion
 

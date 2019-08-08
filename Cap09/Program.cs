@@ -9,9 +9,14 @@ namespace Cap09
     {
         static void Main(string[] args)
         {
-            #region 9.4 Introduction to Collections
-            ListCollection.Principal();
+            #region 9.5 Querying the Generic List Collection
+            LINQWithListCollection.Principal();
             #endregion
+
+            #region 9.4 Introduction to Collections
+            // ListCollection.Principal();
+            #endregion
+            
             #region 9.3 Querying an Array of Employees
             //LINQWithArrayObjects.Principal();
             #endregion

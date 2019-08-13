@@ -1,6 +1,7 @@
 ﻿using System;
-using Cap10.TimeClass;//    10.2 - 10.4
-using Cap10.ClassDate;//    10.7
+using Cap10.TimeClass;//        10.2 - 10.4
+using Cap10.ClassDate;//        10.7
+using Cap10.StaticClasses;//    10.9
 
 namespace Cap10
 {
@@ -8,8 +9,12 @@ namespace Cap10
     {
         static void Main(string[] args)
         {
+            #region 10.9 Static Class Member
+            StaticClasses.EmployeeTest.Principal();
+            #endregion
+
             #region 10.7 Composition
-            EmployeeTest.Principal();
+            // EmployeeTest.Principal();
             #endregion
 
             #region 10.5 Time Class Case Study: Overloaded Constructors

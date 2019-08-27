@@ -4,14 +4,19 @@ using Cap16.Metodos;        //16.4
 using Cap16.Comparacion;    //16.5
 using Cap16.Locating;       //16.6
 using Cap16.Subcadenas;     //16.7
+using Cap16.Concatenacion;  //16.8
 namespace Cap16
 {
     class Program
     {
         static void Main(string[] args)
         {
+            #region 16.8 Concatening Strings
+            StringConcatenation.Principal();
+            #endregion
+
             #region 16.7 Extracting Substrings from strings
-            Substring.Principal();
+            // Substring.Principal();
             #endregion
             
             #region 16.6 Locating Characters and Substrings in strings

@@ -6,15 +6,20 @@ using Cap16.Locating;       //16.6
 using Cap16.Subcadenas;     //16.7
 using Cap16.Concatenacion;  //16.8
 using Cap16.Miscelaneos;    //16.9
-using Cap16.Builder;        //16.10
+using Cap16.Builder;        //16.10 - 16.11
 namespace Cap16
 {
     class Program
     {
         static void Main(string[] args)
         {
+            #region 16.11 Length and Capacity Properties
+            // EnsureCapacity Method and Indexer of Class StringBuilder
+            StringBuilderFeatures.Principal();
+            #endregion
+            
             #region 16.10 Class StringBuilder
-            StringBuilderConstructor.Principal();
+            // StringBuilderConstructor.Principal();
             #endregion
 
             #region 16.9 Miscellaneous string Methods

@@ -13,9 +13,14 @@ namespace Cap16
     {
         static void Main(string[] args)
         {
+            #region 16.12 Append and AppendFormat Methods of Class StringBuilder 
+            StringBuilderAppendFormat.Principal();
+            // StringBUilderAppend.Principal();               
+            #endregion
+
             #region 16.11 Length and Capacity Properties
             // EnsureCapacity Method and Indexer of Class StringBuilder
-            StringBuilderFeatures.Principal();
+            // StringBuilderFeatures.Principal();
             #endregion
             
             #region 16.10 Class StringBuilder

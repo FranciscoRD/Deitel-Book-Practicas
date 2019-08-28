@@ -6,14 +6,19 @@ using Cap16.Locating;       //16.6
 using Cap16.Subcadenas;     //16.7
 using Cap16.Concatenacion;  //16.8
 using Cap16.Miscelaneos;    //16.9
+using Cap16.Builder;        //16.10
 namespace Cap16
 {
     class Program
     {
         static void Main(string[] args)
         {
+            #region 16.10 Class StringBuilder
+            StringBuilderConstructor.Principal();
+            #endregion
+
             #region 16.9 Miscellaneous string Methods
-            StringMethods2.Principal();
+            // StringMethods2.Principal();
             #endregion
 
             #region 16.8 Concatening Strings

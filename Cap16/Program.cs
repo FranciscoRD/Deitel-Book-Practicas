@@ -6,15 +6,20 @@ using Cap16.Locating;       //16.6
 using Cap16.Subcadenas;     //16.7
 using Cap16.Concatenacion;  //16.8
 using Cap16.Miscelaneos;    //16.9
-using Cap16.Builder;        //16.10 - 16.11
+using Cap16.Builder;        //16.10 - 16.11 - 16.12 - 16.13
+using Cap16.CharMethods;    //16.14
 namespace Cap16
 {
     class Program
     {
         static void Main(string[] args)
         {
+            #region 16.14 Char Methods
+            StaticCharMethods.Principal();
+            #endregion
+
             #region 16.13 Insert, Remove and Replace Methods of Class StringBuilder
-            StringBuilderReplace.Principal();
+            // StringBuilderReplace.Principal();
             // StringBuilderInsertRemove.Principal();
             #endregion
             

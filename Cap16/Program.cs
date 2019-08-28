@@ -13,8 +13,13 @@ namespace Cap16
     {
         static void Main(string[] args)
         {
+            #region 16.13 Insert, Remove and Replace Methods of Class StringBuilder
+            StringBuilderReplace.Principal();
+            // StringBuilderInsertRemove.Principal();
+            #endregion
+            
             #region 16.12 Append and AppendFormat Methods of Class StringBuilder 
-            StringBuilderAppendFormat.Principal();
+            // StringBuilderAppendFormat.Principal();
             // StringBUilderAppend.Principal();               
             #endregion
 

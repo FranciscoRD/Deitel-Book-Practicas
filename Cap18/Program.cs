@@ -8,6 +8,9 @@ namespace Cap18
     {
         static void Main(string[] args)
         {
+            #region 18.6 Generic Classes
+            #endregion
+
             #region 18.4 Type Contsraints
             MaximunTest.Principal();
             #endregion
